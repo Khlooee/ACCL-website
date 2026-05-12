@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python \"e:\\\\ACCL\\\\ACCL\\\\www.accl.com.tw\\\\tw\\\\cyber_convert.py\")",
+      "PowerShell(python \"e:\\\\ACCL\\\\ACCL\\\\www.accl.com.tw\\\\tw\\\\cyber_table.py\")",
+      "PowerShell(python \"e:\\\\ACCL\\\\ACCL\\\\www.accl.com.tw\\\\tw\\\\cyber_img.py\")",
+      "PowerShell(python \"e:\\\\ACCL\\\\ACCL\\\\www.accl.com.tw\\\\tw\\\\cyber_fix.py\")"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+.xop_page_path{
+    background-repeat: repeat-x;
+    border: 1px solid #CACACA;
+    color: #9B9B9B;
+    height: 30px;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    padding: 0;
+}
+.xop_page_path li {
+    background-position: right top;
+    background-repeat: no-repeat;
+    float: left;
+    height: 30px;
+    list-style-type: none;
+    padding: 7px 15px 0 10px;
+}
+.xop_page_path .list-text-only{
+    background-color: transparent;
+    color: #333333;
+    font-weight: bold;
+}
+.btn-icon
+{
+    padding: 5px;
+}
+a.btn-icon span.ui-button-text
+{
+    padding: 3px;
+}
+.ajax-upload-list li,
+.image-upload-list li
+{
+    padding:5px;
+    list-style-type: none;
+}
+.image-upload-list li
+{
+    padding:5px;
+    margin:2px;
+    list-style-type: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.image-upload-list li .btn-icon
+{
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0 4px;
+    cursor: pointer;
+}
+.image-upload-list li .remove-file,
+.image-upload-list li .edit-file
+{
+    float: right;
+}
+.image-upload-list li .item-name
+{
+    padding:4px;
+}
+.ajax-form-upload{
+    position: absolute;
+    top:-400px;
+    left:-400px;
+    z-index:32767;
+}
+#progress_block_list td{
+    padding:10px;
+}
+#progress_block_list .progress_block_title{
+    width:140px;
+    vertical-align : middle;
+    font-size:16px;
+    height:32px;
+}
+#progress_block_list .progress_block_content{
+    padding:0 10px;
+    vertical-align : middle;
+    height:32px;
+}
+.progress_block_content .progressbar{
+    height:32px;
+}
+.progressbar .ui-progressbar-value{
+    text-align:left;
+    font-size:24px;
+}
+#progress_block_list .progress_block_btn{
+    vertical-align : middle;
+    width:80px;
+    height:32px;
+    text-align:center;
+}
+.progress_block_btn .btn_conver{
+    padding:10px 2px;
+    height:32px;
+}
+body .flash-dialog{
+    font-size: 1.3em;
+    padding: 12px;
+    text-align: center;
+    width: 40%;
+}
+.ui-autocomplete-loading { background: white url('../images/jqueryui/ui-anim_basic_16x16.gif') right center no-repeat; }

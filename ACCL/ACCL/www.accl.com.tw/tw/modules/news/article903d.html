@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="經營理念 - ACCL 博智電子">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>經營理念 — ACCL 博智電子</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../../themes/CADCH_00013A/css/cyber.css">
+<style>
+  body { padding-top: 64px; }
+
+  .motto-banner {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: rgba(0,0,0,.3);
+    border: 1px solid rgba(0,245,255,.15);
+    border-top: 2px solid var(--cyan);
+    margin-bottom: 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .motto-banner::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at center, rgba(0,245,255,.06) 0%, transparent 70%);
+  }
+  .motto-text {
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(1.6rem, 5vw, 3rem);
+    font-weight: 900;
+    background: linear-gradient(135deg, #fff 0%, var(--cyan) 40%, var(--magenta) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 0 20px rgba(0,245,255,.4));
+    letter-spacing: .15em;
+    margin-bottom: .5rem;
+  }
+  .motto-sub {
+    position: relative;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.05rem;
+    color: rgba(0,245,255,.5);
+    letter-spacing: .2em;
+  }
+
+  .value-card {
+    background: rgba(0,0,0,.3);
+    border: 1px solid rgba(0,245,255,.15);
+    padding: 2rem 2rem 2rem 0;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 0;
+    margin-bottom: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: all .35s;
+  }
+  .value-card::before {
+    content: '';
+    position: absolute; top:0; left:0; bottom:0;
+    width: 2px;
+    background: var(--cyan);
+    transition: background .3s;
+  }
+  .value-card:hover { border-color: rgba(0,245,255,.35); box-shadow: 0 0 28px rgba(0,245,255,.1); }
+  .value-card:hover::before { background: var(--magenta); }
+
+  .value-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1.5rem 1rem;
+    border-right: 1px solid rgba(0,245,255,.12);
+  }
+  .value-icon { font-size: 2.2rem; filter: drop-shadow(0 0 8px var(--cyan)); }
+  .value-tag {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: var(--cyan);
+    letter-spacing: .08em;
+    text-align: center;
+  }
+
+  .value-body { padding: 1.2rem 0 1.2rem 1.5rem; }
+  .value-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 15px rgba(0,245,255,.3);
+  }
+  .value-lines {
+    list-style: none;
+    display: flex; flex-direction: column; gap: .6rem;
+  }
+  .value-lines li {
+    font-size: 1.08rem;
+    color: rgba(224,232,255,.62);
+    line-height: 1.7;
+    display: flex; align-items: flex-start; gap: .6rem;
+    padding-left: .5rem;
+  }
+  .value-lines li::before {
+    content: '▸';
+    color: var(--cyan);
+    flex-shrink: 0;
+    margin-top: .05em;
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav class="cyber-nav">
+  <a href="../../index.html" class="nav-logo">
+    <img src="../../themes/CADCH_00013A/images/logo.png" alt="ACCL">
+    <span>ACCL · 博智電子</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../../index.html">首頁</a></li>
+    <li>
+      <a href="#">關於博智</a>
+      <div class="drop-panel">
+        <a href="articlebb6d.html?storyid=1">公司簡介</a>
+        <a href="article903d.html?storyid=2">經營理念</a>
+        <a href="articlec9f0.html?storyid=3">公司組織和經營團隊</a>
+        <a href="article197e.html?storyid=4">公司沿革</a>
+        <a href="article8f1f.html?storyid=5">榮譽與肯定</a>
+        <a href="article3595.html?storyid=6">生產據點</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">產品技術</a>
+      <div class="drop-panel">
+        <a href="../pages/main.html">產品</a>
+        <a href="../pages/product.html">產品組合</a>
+        <a href="../pages/roadmap.html">技術藍圖</a>
+        <a href="article0377.html?storyid=7">SI</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">品質系統</a>
+      <div class="drop-panel">
+        <a href="articleffdb.html?storyid=8">品質政策</a>
+        <a href="article90bc.html?storyid=9">系統認證</a>
+        <a href="article3142.html?storyid=10">儀器設備</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">企業永續</a>
+      <div class="drop-panel">
+        <a href="articlea4ef.html?storyid=11">永續經營</a>
+        <a href="articlea716.html?storyid=12">環境永續</a>
+        <a href="articlee78f.html?storyid=16">供應鏈發展</a>
+        <a href="article1384.html?storyid=17">友善職場</a>
+        <a href="articleabdd.html?storyid=19">公益關懷</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">投資人專區</a>
+      <div class="drop-panel">
+        <a href="../pages/revenue.html">財務資訊</a>
+        <a href="article8a98.html?storyid=21">公司治理</a>
+        <a href="article1473.html?storyid=28">股東專欄</a>
+        <a href="article40bf.html?storyid=29">重大訊息</a>
+        <a href="article13c5.html?storyid=30">法說會</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">人力資源</a>
+      <div class="drop-panel">
+        <a href="article5a12.html?storyid=33">加入博智</a>
+        <a href="articlec429.html?storyid=34">工作在博智</a>
+        <a href="article95bb.html?storyid=35">學習在博智</a>
+      </div>
+    </li>
+  </ul>
+  <div class="nav-lang">
+    <a href="../../index.html" class="active">中文</a>
+    <a href="../../../en/index.html">EN</a>
+  </div>
+</nav>
+
+<!-- ═══ PAGE HERO ═══ -->
+<div class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-glow"></div>
+  <div class="page-hero-content">
+    <div class="page-hero-label">關於博智 / 經營理念</div>
+    <h1 class="page-hero-title">核心 <span>經營理念</span></h1>
+    <div class="page-hero-line"></div>
+  </div>
+</div>
+
+<!-- ═══ MAIN ═══ -->
+<main class="cyber-main">
+
+  <div class="cyber-breadcrumb reveal">
+    <a href="../../index.html">首頁</a>
+    <span>/</span>
+    <a href="#">關於博智</a>
+    <span>/</span>
+    經營理念
+  </div>
+
+  <!-- 企業格言 -->
+  <div class="motto-banner reveal">
+    <div class="motto-text">創新 · 和諧 · 超越</div>
+    <div class="motto-sub">INNOVATION · HARMONY · EXCELLENCE</div>
+  </div>
+
+  <!-- 三大理念 -->
+  <div class="reveal">
+    <div class="cyber-section-label">核心價值</div>
+    <div class="cyber-section-title">三大 <span>經營核心</span></div>
+  </div>
+
+  <div style="margin-top:2rem;">
+
+    <div class="value-card reveal reveal-delay-1">
+      <div class="value-num">
+        <div class="value-icon">⚡</div>
+        <div class="value-tag">創新</div>
+      </div>
+      <div class="value-body">
+        <div class="value-title">持續創新，永不止步</div>
+        <ul class="value-lines">
+          <li>人人談創新，時時想創新，處處求創新。</li>
+          <li>以新思維、新觀念，帶動研發、技術、營運、流程、產品、策略創新，推陳出新，日新又新。</li>
+          <li>創新源于知識，知識來自學習，落實終身學習風氣，構建創新不息源泉。</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="value-card reveal reveal-delay-1">
+      <div class="value-num">
+        <div class="value-icon">🤝</div>
+        <div class="value-tag">和諧</div>
+      </div>
+      <div class="value-body">
+        <div class="value-title">守法誠信，共謀發展</div>
+        <ul class="value-lines">
+          <li>守法紀、講誠信，營造公平合理發展環境。</li>
+          <li>善協調、求團結，形成分工合作家庭文化。</li>
+          <li>重團隊、論效率，整合企業資源，共謀發展。</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="value-card reveal reveal-delay-2">
+      <div class="value-num">
+        <div class="value-icon">🚀</div>
+        <div class="value-tag">超越</div>
+      </div>
+      <div class="value-body">
+        <div class="value-title">突破極限，追求卓越</div>
+        <ul class="value-lines">
+          <li>個人追求戰勝自我、超越自我。</li>
+          <li>經營力求突破現狀、挑戰極限。</li>
+          <li>績效期許超越競爭者，勇居前茅，追求卓越。</li>
+          <li>沒有最好，只有更好，以今日突破挑戰昨日格局，創造明日新局。</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="cyber-footer">
+  <div class="cyber-footer-inner">
+    <div>
+      <div class="cyber-footer-brand">
+        <img src="../../themes/CADCH_00013A/images/logo.png" alt="ACCL">
+        <span>ACCL 博智電子</span>
+      </div>
+      <p class="cyber-footer-about">工業及商業用PCB製造廠商，專注多層印刷電路板、高密度連接板精密製造。</p>
+      <div class="cyber-footer-links">
+        <a href="mailto:sales@accl.com.tw" class="cyber-footer-link" title="電子郵件">@</a>
+        <a href="tel:+88634992500" class="cyber-footer-link" title="電話">☎</a>
+        <a href="../../../en/index.html" class="cyber-footer-link" title="English">EN</a>
+      </div>
+    </div>
+    <div class="cyber-footer-contact">
+      <h3>// 聯絡資訊</h3>
+      <ul>
+        <li>桃園市龍潭區烏林里工二路128號</li>
+        <li>TEL: +886-3-4992500</li>
+        <li>FAX: +886-3-4992502</li>
+        <li>sales@accl.com.tw</li>
+      </ul>
+    </div>
+  </div>
+  <div class="cyber-footer-bottom">
+    <div class="cyber-footer-copy">© 2021–2026 <em>ALLIED CIRCUIT CO., LTD.</em> 版權所有</div>
+    <div class="cyber-footer-copy" style="color:rgba(255,0,255,.25);">系統狀態：在線 // ACCL_v4.0</div>
+  </div>
+</footer>
+
+<script>
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.08 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+const canvas = document.createElement('canvas');
+canvas.style.cssText = 'position:fixed;top:0;left:0;pointer-events:none;z-index:9990;';
+document.body.appendChild(canvas);
+const ctx = canvas.getContext('2d');
+canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+window.addEventListener('resize', () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; });
+const trail = []; let mouse = {x:0,y:0};
+document.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+(function drawTrail() {
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  trail.push({x:mouse.x, y:mouse.y});
+  if (trail.length > 28) trail.shift();
+  for (let i=1;i<trail.length;i++) {
+    ctx.beginPath();
+    ctx.moveTo(trail[i-1].x, trail[i-1].y);
+    ctx.lineTo(trail[i].x, trail[i].y);
+    ctx.strokeStyle = `rgba(0,245,255,${(i/trail.length)*.35})`;
+    ctx.lineWidth = (i/trail.length)*2;
+    ctx.stroke();
+  }
+  requestAnimationFrame(drawTrail);
+})();
+</script>
+
+<div class="cyber-lightbox" id="cyberLightbox">
+  <span class="cyber-lightbox-close" id="cyberLbClose">[ESC] 關閉</span>
+  <img src="" alt="" id="cyberLbImg">
+</div>
+<script>
+(function(){
+  var SCENE=[/uploads\/pages\//i,/uploads\/news\//i,/nc_vision/i];
+  var DIAG=['roadmap','stack','drill','plat','trace','surface','measurement','etching',
+            '組織','架構','圖','chart','diagram','capability','vippo','finish'];
+  var CERT=['認證','奬','獎','award','certif','report','報告','iso','iatf','ul','rba','品質','qc'];
+
+  function classify(img){
+    var src=(img.getAttribute('src')||'').toLowerCase();
+    var alt=(img.alt||'').toLowerCase();
+    if(!src||src.includes('logo')||src.includes('qr.png')) return null;
+    if(img.closest('.cyber-nav')||img.closest('.cyber-footer')) return null;
+    if(img.classList.contains('cyber-processed')) return null;
+    if(SCENE.some(function(p){return p.test(src);})) return 'scene';
+    if(DIAG.some(function(k){return alt.includes(k);})) return 'diagram';
+    if(CERT.some(function(k){return alt.includes(k);})) return 'cert';
+    if(src.includes('filelist')||src.includes('uploads')) return 'diagram';
+    return 'diagram';
+  }
+
+  function wrapScene(img){
+    if(img.closest('.cyber-img-scene')) return;
+    var w=document.createElement('div'); w.className='cyber-img-scene';
+    var tl=document.createElement('div'); tl.className='scene-corner';
+    var br=document.createElement('div'); br.className='scene-corner-br';
+    var st=document.createElement('div'); st.className='scene-status';
+    st.textContent='IMG_FEED // LIVE';
+    img.parentNode.insertBefore(w,img);
+    w.appendChild(img); w.appendChild(tl); w.appendChild(br); w.appendChild(st);
+    img.classList.add('cyber-processed');
+  }
+
+  function wrapDiagram(img){
+    if(img.closest('.cyber-img-diagram')) return;
+    var w=document.createElement('div'); w.className='cyber-img-diagram';
+    var bar=document.createElement('div'); bar.className='diag-bar';
+    var z=document.createElement('div'); z.className='diag-zoom';
+    z.title='放大檢視'; z.textContent='⊕';
+    z.addEventListener('click',function(){openLb(img.src,img.alt);});
+    img.parentNode.insertBefore(w,img);
+    w.appendChild(bar); w.appendChild(img); w.appendChild(z);
+    img.classList.add('cyber-processed');
+    img.style.cursor='zoom-in';
+    img.addEventListener('click',function(){openLb(img.src,img.alt);});
+    img.style.maxHeight='';
+  }
+
+  function wrapCert(img){
+    if(img.closest('.cyber-img-cert')) return;
+    var a=img.closest('a');
+    var src=a||img;
+    var w=document.createElement('div'); w.className='cyber-img-cert';
+    var lb=document.createElement('div'); lb.className='cert-label';
+    lb.textContent=img.alt||'';
+    src.parentNode.insertBefore(w,src);
+    w.appendChild(src);
+    if(img.alt) w.appendChild(lb);
+    img.classList.add('cyber-processed');
+    if(!a){
+      img.style.cursor='zoom-in';
+      w.addEventListener('click',function(){openLb(img.src,img.alt);});
+    }
+  }
+
+  function groupCerts(){
+    var cs=document.querySelectorAll('.cyber-img-cert');
+    if(cs.length<2) return;
+    var cur=[];
+    cs.forEach(function(c){
+      if(!cur.length){cur.push(c);return;}
+      var prev=cur[cur.length-1], b=prev.nextSibling;
+      while(b&&b.nodeType===3&&/^\s*$/.test(b.textContent)) b=b.nextSibling;
+      if(b===c||(b&&b.tagName==='BR'&&b.nextSibling===c)) cur.push(c);
+      else{
+        if(cur.length>=2){
+          var g=document.createElement('div'); g.className='cyber-img-cert-grid';
+          cur[0].parentNode.insertBefore(g,cur[0]);
+          cur.forEach(function(x){g.appendChild(x);});
+        }
+        cur=[c];
+      }
+    });
+    if(cur.length>=2){
+      var g=document.createElement('div'); g.className='cyber-img-cert-grid';
+      cur[0].parentNode.insertBefore(g,cur[0]);
+      cur.forEach(function(x){g.appendChild(x);});
+    }
+  }
+
+  var lb=document.getElementById('cyberLightbox');
+  var lbImg=document.getElementById('cyberLbImg');
+  var lbClose=document.getElementById('cyberLbClose');
+
+  function openLb(src,alt){
+    lbImg.src=src; lbImg.alt=alt||'';
+    lb.classList.add('open');
+    document.body.style.overflow='hidden';
+  }
+  function closeLb(){
+    lb.classList.remove('open'); lbImg.src='';
+    document.body.style.overflow='';
+  }
+  if(lb){
+    lb.addEventListener('click',function(e){
+      if(e.target===lb||e.target===lbClose) closeLb();
+    });
+    document.addEventListener('keydown',function(e){
+      if(e.key==='Escape') closeLb();
+    });
+  }
+
+  function run(){
+    document.querySelectorAll('.cyber-content-body img,.cyber-product-img img').forEach(function(img){
+      if(img.classList.contains('cyber-processed')) return;
+      var t=classify(img);
+      if(!t) return;
+      if(t==='scene') wrapScene(img);
+      else if(t==='cert') wrapCert(img);
+      else wrapDiagram(img);
+    });
+    groupCerts();
+  }
+  if(document.readyState==='loading')
+    document.addEventListener('DOMContentLoaded',run);
+  else run();
+})();
+</script>
+</body>
+</html>

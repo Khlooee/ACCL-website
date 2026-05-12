@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="品質政策 - ACCL 博智電子">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>品質政策 — ACCL 博智電子</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../../themes/CADCH_00013A/css/cyber.css">
+<style>
+  body { padding-top: 64px; }
+
+  .policy-slogan {
+    text-align: center;
+    padding: 3rem 2rem 2.5rem;
+    background: rgba(0,0,0,.3);
+    border: 1px solid rgba(0,245,255,.2);
+    border-top: 2px solid var(--cyan);
+    margin-bottom: 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .policy-slogan::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 30% 50%, rgba(0,245,255,.07) 0%, transparent 65%),
+                radial-gradient(ellipse at 70% 50%, rgba(255,0,255,.05) 0%, transparent 65%);
+  }
+  .policy-main-text {
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(1.8rem, 5vw, 3.2rem);
+    font-weight: 900;
+    background: linear-gradient(135deg, #fff 0%, var(--cyan) 50%, var(--magenta) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 0 25px rgba(0,245,255,.4));
+    letter-spacing: .12em;
+    margin-bottom: 1rem;
+  }
+  .policy-sub-text {
+    position: relative;
+    font-size: 1.2rem;
+    color: rgba(224,232,255,.65);
+    line-height: 1.8;
+    max-width: 600px; margin: 0 auto;
+  }
+
+  .policy-img-frame {
+    border: 1px solid rgba(0,245,255,.2);
+    position: relative;
+    overflow: hidden;
+    margin-top: 3rem;
+  }
+  .policy-img-frame::before {
+    content: '';
+    position: absolute; top:0; left:0; right:0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--cyan), var(--magenta));
+    z-index: 1;
+  }
+  .policy-img-frame::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(0,245,255,.06) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 1;
+  }
+  .policy-img-frame img {
+    display: block; width: 100%; max-width: 680px;
+    margin: 0 auto; height: auto;
+    filter: saturate(.9) brightness(.95);
+    transition: filter .4s;
+  }
+  .policy-img-frame:hover img { filter: saturate(1.05) brightness(1.05); }
+
+  .policy-pillars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 3rem;
+  }
+  .pillar {
+    padding: 1.75rem;
+    background: rgba(0,245,255,.04);
+    border: 1px solid rgba(0,245,255,.15);
+    text-align: center;
+    transition: all .35s;
+    position: relative;
+    overflow: hidden;
+  }
+  .pillar::before {
+    content: '';
+    position: absolute; top:0; left:0; right:0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+    transform: scaleX(0);
+    transition: transform .4s;
+  }
+  .pillar:hover::before { transform: scaleX(1); }
+  .pillar:hover { border-color: rgba(0,245,255,.35); box-shadow: 0 0 24px rgba(0,245,255,.1); }
+
+  .pillar-icon { font-size: 2rem; margin-bottom: .75rem; filter: drop-shadow(0 0 6px var(--cyan)); }
+  .pillar-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.08rem; font-weight: 700;
+    color: var(--cyan); margin-bottom: .5rem; letter-spacing: .05em;
+  }
+  .pillar-desc { font-size: 1.02rem; color: rgba(224,232,255,.52); line-height: 1.7; }
+
+  @media (max-width: 600px) {
+    .policy-pillars { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══ NAVBAR ═══ -->
+<nav class="cyber-nav">
+  <a href="../../index.html" class="nav-logo">
+    <img src="../../themes/CADCH_00013A/images/logo.png" alt="ACCL">
+    <span>ACCL · 博智電子</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../../index.html">首頁</a></li>
+    <li>
+      <a href="#">關於博智</a>
+      <div class="drop-panel">
+        <a href="articlebb6d.html?storyid=1">公司簡介</a>
+        <a href="article903d.html?storyid=2">經營理念</a>
+        <a href="articlec9f0.html?storyid=3">公司組織和經營團隊</a>
+        <a href="article197e.html?storyid=4">公司沿革</a>
+        <a href="article8f1f.html?storyid=5">榮譽與肯定</a>
+        <a href="article3595.html?storyid=6">生產據點</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">產品技術</a>
+      <div class="drop-panel">
+        <a href="../pages/main.html">產品</a>
+        <a href="../pages/product.html">產品組合</a>
+        <a href="../pages/roadmap.html">技術藍圖</a>
+        <a href="article0377.html?storyid=7">SI</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">品質系統</a>
+      <div class="drop-panel">
+        <a href="articleffdb.html?storyid=8">品質政策</a>
+        <a href="article90bc.html?storyid=9">系統認證</a>
+        <a href="article3142.html?storyid=10">儀器設備</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">企業永續</a>
+      <div class="drop-panel">
+        <a href="articlea4ef.html?storyid=11">永續經營</a>
+        <a href="articlea716.html?storyid=12">環境永續</a>
+        <a href="articlee78f.html?storyid=16">供應鏈發展</a>
+        <a href="article1384.html?storyid=17">友善職場</a>
+        <a href="articleabdd.html?storyid=19">公益關懷</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">投資人專區</a>
+      <div class="drop-panel">
+        <a href="../pages/revenue.html">財務資訊</a>
+        <a href="article8a98.html?storyid=21">公司治理</a>
+        <a href="article1473.html?storyid=28">股東專欄</a>
+        <a href="article40bf.html?storyid=29">重大訊息</a>
+        <a href="article13c5.html?storyid=30">法說會</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">人力資源</a>
+      <div class="drop-panel">
+        <a href="article5a12.html?storyid=33">加入博智</a>
+        <a href="articlec429.html?storyid=34">工作在博智</a>
+        <a href="article95bb.html?storyid=35">學習在博智</a>
+      </div>
+    </li>
+  </ul>
+  <div class="nav-lang">
+    <a href="../../index.html" class="active">中文</a>
+    <a href="../../../en/index.html">EN</a>
+  </div>
+</nav>
+
+<!-- ═══ PAGE HERO ═══ -->
+<div class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-glow"></div>
+  <div class="page-hero-content">
+    <div class="page-hero-label">品質系統 / 品質政策</div>
+    <h1 class="page-hero-title">品質 <span>第一</span>，客戶滿意</h1>
+    <div class="page-hero-line"></div>
+  </div>
+</div>
+
+<!-- ═══ MAIN ═══ -->
+<main class="cyber-main">
+
+  <div class="cyber-breadcrumb reveal">
+    <a href="../../index.html">首頁</a>
+    <span>/</span>
+    <a href="#">品質系統</a>
+    <span>/</span>
+    品質政策
+  </div>
+
+  <!-- 品質宣言 -->
+  <div class="policy-slogan reveal">
+    <div class="policy-main-text">品質第一，客戶滿意</div>
+    <div class="policy-sub-text">提供最好的品質、工程技術和客戶服務，持續不斷改善。</div>
+  </div>
+
+  <!-- 三大支柱 -->
+  <div class="reveal">
+    <div class="cyber-section-label">品質承諾</div>
+    <div class="cyber-section-title">品質管理 <span>三大支柱</span></div>
+  </div>
+
+  <div class="policy-pillars">
+    <div class="pillar reveal">
+      <div class="pillar-icon">🏆</div>
+      <div class="pillar-title">卓越品質</div>
+      <div class="pillar-desc">嚴格執行製程管控，從原料進料到成品出貨，每一環節均符合最高品質標準。</div>
+    </div>
+    <div class="pillar reveal reveal-delay-1">
+      <div class="pillar-icon">⚙️</div>
+      <div class="pillar-title">工程技術</div>
+      <div class="pillar-desc">持續投入研發與技術升級，具備業界領先的 HDI、Back-drill 及高頻板製造能力。</div>
+    </div>
+    <div class="pillar reveal reveal-delay-2">
+      <div class="pillar-icon">🤝</div>
+      <div class="pillar-title">客戶服務</div>
+      <div class="pillar-desc">以客戶需求為核心，提供即時技術支援與快速問題解決，建立長期夥伴關係。</div>
+    </div>
+  </div>
+
+  <!-- 品質政策圖 -->
+  <div class="reveal" style="margin-top:3rem;">
+    <div class="cyber-section-label">品質方針</div>
+    <div class="cyber-section-title">品質 <span>政策宣言</span></div>
+    <div class="policy-img-frame" style="margin-top:1.5rem;">
+      <img src="../../uploads/filelist/1000/2/1625652404_a77097d7cb43235.png" alt="品質政策">
+    </div>
+  </div>
+
+</main>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="cyber-footer">
+  <div class="cyber-footer-inner">
+    <div>
+      <div class="cyber-footer-brand">
+        <img src="../../themes/CADCH_00013A/images/logo.png" alt="ACCL">
+        <span>ACCL 博智電子</span>
+      </div>
+      <p class="cyber-footer-about">工業及商業用PCB製造廠商，專注多層印刷電路板、高密度連接板精密製造。</p>
+      <div class="cyber-footer-links">
+        <a href="mailto:sales@accl.com.tw" class="cyber-footer-link" title="電子郵件">@</a>
+        <a href="tel:+88634992500" class="cyber-footer-link" title="電話">☎</a>
+        <a href="../../../en/index.html" class="cyber-footer-link" title="English">EN</a>
+      </div>
+    </div>
+    <div class="cyber-footer-contact">
+      <h3>// 聯絡資訊</h3>
+      <ul>
+        <li>桃園市龍潭區烏林里工二路128號</li>
+        <li>TEL: +886-3-4992500</li>
+        <li>FAX: +886-3-4992502</li>
+        <li>sales@accl.com.tw</li>
+      </ul>
+    </div>
+  </div>
+  <div class="cyber-footer-bottom">
+    <div class="cyber-footer-copy">© 2021–2026 <em>ALLIED CIRCUIT CO., LTD.</em> 版權所有</div>
+    <div class="cyber-footer-copy" style="color:rgba(255,0,255,.25);">系統狀態：在線 // ACCL_v4.0</div>
+  </div>
+</footer>
+
+<script>
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.08 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+const canvas = document.createElement('canvas');
+canvas.style.cssText = 'position:fixed;top:0;left:0;pointer-events:none;z-index:9990;';
+document.body.appendChild(canvas);
+const ctx = canvas.getContext('2d');
+canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+window.addEventListener('resize', () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; });
+const trail = []; let mouse = {x:0,y:0};
+document.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+(function drawTrail() {
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  trail.push({x:mouse.x, y:mouse.y});
+  if (trail.length > 28) trail.shift();
+  for (let i=1;i<trail.length;i++) {
+    ctx.beginPath();
+    ctx.moveTo(trail[i-1].x, trail[i-1].y);
+    ctx.lineTo(trail[i].x, trail[i].y);
+    ctx.strokeStyle = `rgba(0,245,255,${(i/trail.length)*.35})`;
+    ctx.lineWidth = (i/trail.length)*2;
+    ctx.stroke();
+  }
+  requestAnimationFrame(drawTrail);
+})();
+</script>
+
+<div class="cyber-lightbox" id="cyberLightbox">
+  <span class="cyber-lightbox-close" id="cyberLbClose">[ESC] 關閉</span>
+  <img src="" alt="" id="cyberLbImg">
+</div>
+<script>
+(function(){
+  var SCENE=[/uploads\/pages\//i,/uploads\/news\//i,/nc_vision/i];
+  var DIAG=['roadmap','stack','drill','plat','trace','surface','measurement','etching',
+            '組織','架構','圖','chart','diagram','capability','vippo','finish'];
+  var CERT=['認證','奬','獎','award','certif','report','報告','iso','iatf','ul','rba','品質','qc'];
+
+  function classify(img){
+    var src=(img.getAttribute('src')||'').toLowerCase();
+    var alt=(img.alt||'').toLowerCase();
+    if(!src||src.includes('logo')||src.includes('qr.png')) return null;
+    if(img.closest('.cyber-nav')||img.closest('.cyber-footer')) return null;
+    if(img.classList.contains('cyber-processed')) return null;
+    if(SCENE.some(function(p){return p.test(src);})) return 'scene';
+    if(DIAG.some(function(k){return alt.includes(k);})) return 'diagram';
+    if(CERT.some(function(k){return alt.includes(k);})) return 'cert';
+    if(src.includes('filelist')||src.includes('uploads')) return 'diagram';
+    return 'diagram';
+  }
+
+  function wrapScene(img){
+    if(img.closest('.cyber-img-scene')) return;
+    var w=document.createElement('div'); w.className='cyber-img-scene';
+    var tl=document.createElement('div'); tl.className='scene-corner';
+    var br=document.createElement('div'); br.className='scene-corner-br';
+    var st=document.createElement('div'); st.className='scene-status';
+    st.textContent='IMG_FEED // LIVE';
+    img.parentNode.insertBefore(w,img);
+    w.appendChild(img); w.appendChild(tl); w.appendChild(br); w.appendChild(st);
+    img.classList.add('cyber-processed');
+  }
+
+  function wrapDiagram(img){
+    if(img.closest('.cyber-img-diagram')) return;
+    var w=document.createElement('div'); w.className='cyber-img-diagram';
+    var bar=document.createElement('div'); bar.className='diag-bar';
+    var z=document.createElement('div'); z.className='diag-zoom';
+    z.title='放大檢視'; z.textContent='⊕';
+    z.addEventListener('click',function(){openLb(img.src,img.alt);});
+    img.parentNode.insertBefore(w,img);
+    w.appendChild(bar); w.appendChild(img); w.appendChild(z);
+    img.classList.add('cyber-processed');
+    img.style.cursor='zoom-in';
+    img.addEventListener('click',function(){openLb(img.src,img.alt);});
+    img.style.maxHeight='';
+  }
+
+  function wrapCert(img){
+    if(img.closest('.cyber-img-cert')) return;
+    var a=img.closest('a');
+    var src=a||img;
+    var w=document.createElement('div'); w.className='cyber-img-cert';
+    var lb=document.createElement('div'); lb.className='cert-label';
+    lb.textContent=img.alt||'';
+    src.parentNode.insertBefore(w,src);
+    w.appendChild(src);
+    if(img.alt) w.appendChild(lb);
+    img.classList.add('cyber-processed');
+    if(!a){
+      img.style.cursor='zoom-in';
+      w.addEventListener('click',function(){openLb(img.src,img.alt);});
+    }
+  }
+
+  function groupCerts(){
+    var cs=document.querySelectorAll('.cyber-img-cert');
+    if(cs.length<2) return;
+    var cur=[];
+    cs.forEach(function(c){
+      if(!cur.length){cur.push(c);return;}
+      var prev=cur[cur.length-1], b=prev.nextSibling;
+      while(b&&b.nodeType===3&&/^\s*$/.test(b.textContent)) b=b.nextSibling;
+      if(b===c||(b&&b.tagName==='BR'&&b.nextSibling===c)) cur.push(c);
+      else{
+        if(cur.length>=2){
+          var g=document.createElement('div'); g.className='cyber-img-cert-grid';
+          cur[0].parentNode.insertBefore(g,cur[0]);
+          cur.forEach(function(x){g.appendChild(x);});
+        }
+        cur=[c];
+      }
+    });
+    if(cur.length>=2){
+      var g=document.createElement('div'); g.className='cyber-img-cert-grid';
+      cur[0].parentNode.insertBefore(g,cur[0]);
+      cur.forEach(function(x){g.appendChild(x);});
+    }
+  }
+
+  var lb=document.getElementById('cyberLightbox');
+  var lbImg=document.getElementById('cyberLbImg');
+  var lbClose=document.getElementById('cyberLbClose');
+
+  function openLb(src,alt){
+    lbImg.src=src; lbImg.alt=alt||'';
+    lb.classList.add('open');
+    document.body.style.overflow='hidden';
+  }
+  function closeLb(){
+    lb.classList.remove('open'); lbImg.src='';
+    document.body.style.overflow='';
+  }
+  if(lb){
+    lb.addEventListener('click',function(e){
+      if(e.target===lb||e.target===lbClose) closeLb();
+    });
+    document.addEventListener('keydown',function(e){
+      if(e.key==='Escape') closeLb();
+    });
+  }
+
+  function run(){
+    document.querySelectorAll('.cyber-content-body img,.cyber-product-img img').forEach(function(img){
+      if(img.classList.contains('cyber-processed')) return;
+      var t=classify(img);
+      if(!t) return;
+      if(t==='scene') wrapScene(img);
+      else if(t==='cert') wrapCert(img);
+      else wrapDiagram(img);
+    });
+    groupCerts();
+  }
+  if(document.readyState==='loading')
+    document.addEventListener('DOMContentLoaded',run);
+  else run();
+})();
+</script>
+</body>
+</html>

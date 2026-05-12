@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="技術藍圖 - ACCL 博智電子">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>技術藍圖 — ACCL 博智電子</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:ital,wght@0,400;0,700&family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../../themes/CADCH_00013A/css/cyber.css">
+<style>
+body { padding-top: 64px; }
+.cyber-content-body { line-height:2.0; font-size: 1.3rem; color:rgba(224,232,255,.78); letter-spacing:.03em; }
+.cyber-content-body p { margin-bottom:1.1rem; }
+.cyber-content-body ul,.cyber-content-body ol { padding-left:1.6rem; margin-bottom:1.1rem; }
+.cyber-content-body li { margin-bottom:.5rem; }
+.cyber-content-body strong { color:#fff; }
+.cyber-content-body a { color:var(--cyan); text-decoration:none; border-bottom:1px solid rgba(0,245,255,.3); }
+.cyber-content-body a:hover { color:#fff; border-bottom-color:#fff; }
+.cyber-content-body img { max-width:100%; height:auto; display:block; margin:1.5rem auto;
+  border:1px solid rgba(0,245,255,.2); filter:saturate(.9); }
+/* table styles → cyber.css .cyber-table */
+.cyber-content-body blockquote { display:none; }
+.cyber-content-body .page_des { display:none !important; }
+.cyber-content-body .page > blockquote { display:none; }
+.cyber-content-body .nav.nav-tabs { display:flex; gap:.4rem; flex-wrap:wrap;
+  border-bottom:1px solid rgba(0,245,255,.2); margin-bottom:1.5rem; list-style:none; padding:0; }
+.cyber-content-body .nav-tabs > li { margin:0; }
+.cyber-content-body .nav-tabs > li > a {
+  display:block; padding:.5rem 1.1rem;
+  background:transparent; border:1px solid rgba(0,245,255,.2); border-bottom:none;
+  color:rgba(224,232,255,.5); font-family:"Space Mono",monospace; font-size: 1.13rem;
+  letter-spacing:.06em; text-decoration:none; cursor:pointer; transition:all .25s;
+  position:relative; bottom:-1px;
+  clip-path:polygon(6px 0%,100% 0%,calc(100% - 6px) 100%,0% 100%); }
+.cyber-content-body .nav-tabs > li.active > a,
+.cyber-content-body .nav-tabs > li > a:hover {
+  color:#020208; background:var(--cyan); border-color:var(--cyan);
+  box-shadow:0 0 12px rgba(0,245,255,.35); }
+.cyber-content-body .tab-content { padding-top:.5rem; }
+.cyber-content-body .tab-pane { display:none; }
+.cyber-content-body .tab-pane.in.active { display:block; }
+</style>
+</head>
+<body>
+
+<nav class="cyber-nav">
+  <a href="../../index.html" class="nav-logo">
+    <img src="../../themes/CADCH_00013A/images/logo.png" alt="ACCL">
+    <span>ACCL · 博智電子</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../../index.html">首頁</a></li>
+    <li><a href="#">關於博智</a>
+      <div class="drop-panel">
+        <a href="../../modules/news/articlebb6d.html?storyid=1">公司簡介</a>
+        <a href="../../modules/news/article903d.html?storyid=2">經營理念</a>
+        <a href="../../modules/news/articlec9f0.html?storyid=3">公司組織和經營團隊</a>
+        <a href="../../modules/news/article197e.html?storyid=4">公司沿革</a>
+        <a href="../../modules/news/article8f1f.html?storyid=5">榮譽與肯定</a>
+        <a href="../../modules/news/article3595.html?storyid=6">生產據點</a>
+      </div></li>
+    <li><a href="#">產品技術</a>
+      <div class="drop-panel">
+        <a href="../../modules/pages/main.html">產品</a>
+        <a href="../../modules/pages/product.html">產品組合</a>
+        <a href="../../modules/pages/roadmap.html">技術藍圖</a>
+        <a href="../../modules/news/article0377.html?storyid=7">SI</a>
+      </div></li>
+    <li><a href="#">品質系統</a>
+      <div class="drop-panel">
+        <a href="../../modules/news/articleffdb.html?storyid=8">品質政策</a>
+        <a href="../../modules/news/article90bc.html?storyid=9">系統認證</a>
+        <a href="../../modules/news/article3142.html?storyid=10">儀器設備</a>
+      </div></li>
+    <li><a href="#">企業永續</a>
+      <div class="drop-panel">
+        <a href="../../modules/news/articlea4ef.html?storyid=11">永續經營</a>
+        <a href="../../modules/news/articlea716.html?storyid=12">環境永續</a>
+        <a href="../../modules/news/articlee78f.html?storyid=16">供應鏈發展</a>
+        <a href="../../modules/news/article1384.html?storyid=17">友善職場</a>
+        <a href="../../modules/news/articleabdd.html?storyid=19">公益關懷</a>
+        <a href="../../modules/news/article317c.html?storyid=41">永續報告書</a>
+      </div></li>
+    <li><a href="#">投資人專區</a>
+      <div class="drop-panel">
+        <a href="../../modules/pages/revenue.html">財務資訊</a>
+        <a href="../../modules/news/article8a98.html?storyid=21">公司治理</a>
+        <a href="../../modules/news/article1473.html?storyid=28">股東專欄</a>
+        <a href="../../modules/news/article40bf.html?storyid=29">重大訊息</a>
+        <a href="../../modules/news/article13c5.html?storyid=30">法說會</a>
+        <a href="../../modules/news/article3641.html?storyid=31">利害關係人</a>
+        <a href="../../modules/news/article3507.html?storyid=32">投資人聯絡</a>
+      </div></li>
+    <li><a href="#">人力資源</a>
+      <div class="drop-panel">
+        <a href="../../modules/news/article5a12.html?storyid=33">加入博智</a>
+        <a href="../../modules/news/articlec429.html?storyid=34">工作在博智</a>
+        <a href="../../modules/news/article95bb.html?storyid=35">學習在博智</a>
+      </div></li>
+  </ul>
+  <div class="nav-lang">
+    <a href="../../index.html" class="active">中文</a>
+    <a href="../../../en/index.html">EN</a>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-glow"></div>
+  <div class="page-hero-content">
+    <div class="page-hero-label">產品技術 / 技術藍圖</div>
+    <h1 class="page-hero-title"><span>技術藍圖</span></h1>
+    <div class="page-hero-line"></div>
+  </div>
+</div>
+
+<main class="cyber-main">
+  <div class="cyber-breadcrumb reveal"><a href="../../index.html">首頁</a> <span>/</span> 產品技術 <span>/</span> 技術藍圖</div>
+  <div class="cyber-content-card reveal reveal-delay-1">
+    <div class="cyber-content-body">
+<div class="page">
+
+					<blockquote style="border-left: 5px solid #666;">
+				<h2 role="heading" class="news-no-image"> Roadmap</h2>
+			</blockquote>
+						<div class="page_des" style="display: none;"><p>&nbsp; &nbsp;</p></div>
+		
+		<div>
+			<ul class="nav nav-tabs" role="tablist">
+				<li class="active"><a href="#page_area_2" role="tab" data-toggle="tab">Manufacture Capability</a></li>				<li><a href="#page_area_3" role="tab" data-toggle="tab">Stack-up</a></li>				<li><a href="#page_area_4" role="tab" data-toggle="tab">Drilling</a></li>				<li><a href="#page_area_5" role="tab" data-toggle="tab">Plating & VIPPO</a></li>				<li><a href="#page_area_6" role="tab" data-toggle="tab">Trace / Space</a></li>				<li><a href="#page_area_7" role="tab" data-toggle="tab">Surface Finish</a></li>				<li><a href="#page_area_8" role="tab" data-toggle="tab">Measurement Capability</a></li>				<li><a href="#page_area_9" role="tab" data-toggle="tab">Non Etching Solution</a></li>			</ul>
+			
+			<div class="tab-content">
+								<div id="page_area_2" class="tab-pane fade in active">
+					<p style="text-align: center;"><img alt="Manufacture Capability" src="../../uploads/filelist/1000/2/1736243149_a770981f7cd5a61.png" title="Manufacture Capability" /></p>
+									</div>
+												<div id="page_area_3" class="tab-pane fade">
+					<p style="text-align: center;"><img alt="Stack-up" src="../../uploads/filelist/1000/2/1736246699_a77098105abbfe6.png" title="Stack-up" /></p>
+									</div>
+												<div id="page_area_4" class="tab-pane fade">
+					<p style="text-align: center;"><img alt="Drilling" src="../../uploads/filelist/1000/2/1736246699_a77098105abeb4d.png" title="Drilling" /></p>
+									</div>
+												<div id="page_area_5" class="tab-pane fade">
+					<p style="text-align: center;"><img alt="Plating &amp; VIPPO" src="../../uploads/filelist/1000/2/1736246700_a77098105ac0962.png" title="Plating &amp; VIPPO" /></p>
+									</div>
+												<div id="page_area_6" class="tab-pane fade">
+					<p style="text-align: center;"><img alt="Trace / Space" src="../../uploads/filelist/1000/2/1736246847_a770981063fc468.png" title="Trace / Space" /></p>
+									</div>
+												<div id="page_area_7" class="tab-pane fade">
+					<p style="text-align: center;"><img alt="Surface Finish" src="../../uploads/filelist/1000/2/1736246847_a770981063fc477.png" title="Surface Finish" /></p>
+									</div>
+												<div id="page_area_8" class="tab-pane fade">
+					<p style="text-align: center;"><img alt="Measurement Capability" src="../../uploads/filelist/1000/2/1736246847_a770981063fc482.png" title="Measurement Capability" /></p>
+									</div>
+												<div id="page_area_9" class="tab-pane fade">
+					<p style="text-align: center;"><img alt="Non Etching Solution" src="../../uploads/filelist/1000/2/1736246847_a770981063fc48b.png" title="Non Etching Solution" /></p>
+									</div>
+							</div>
+		</div>
+
+	</div>
+    </div>
+  </div>
+</main>
+
+<footer class="cyber-footer">
+  <div class="cyber-footer-inner">
+    <div>
+      <div class="cyber-footer-brand">
+        <img src="../../themes/CADCH_00013A/images/logo.png" alt="ACCL">
+        <span>ACCL 博智電子</span>
+      </div>
+      <p class="cyber-footer-about">工業及商業用PCB製造廠商，專注多層印刷電路板、高密度連接板精密製造。</p>
+      <div class="cyber-footer-links">
+        <a href="mailto:sales@accl.com.tw" class="cyber-footer-link">@</a>
+        <a href="tel:+88634992500" class="cyber-footer-link">☎</a>
+        <a href="../../../en/index.html" class="cyber-footer-link">EN</a>
+      </div>
+    </div>
+    <div class="cyber-footer-contact">
+      <h3>// 聯絡資訊</h3>
+      <ul>
+        <li>桃園市龍潭區烏林里工二路128號</li>
+        <li>TEL: +886-3-4992500</li>
+        <li>FAX: +886-3-4992502</li>
+        <li>sales@accl.com.tw</li>
+      </ul>
+    </div>
+  </div>
+  <div class="cyber-footer-bottom">
+    <div class="cyber-footer-copy">© 2021–2026 <em>ALLIED CIRCUIT CO., LTD.</em> 版權所有</div>
+    <div class="cyber-footer-copy" style="color:rgba(255,0,255,.25);">系統狀態：在線 // ACCL_v4.0</div>
+  </div>
+</footer>
+
+<script>
+const _obs = new IntersectionObserver(es => es.forEach(e => {
+  if(e.isIntersecting) e.target.classList.add('visible');
+}), {threshold:.06});
+document.querySelectorAll('.reveal').forEach(el => _obs.observe(el));
+const _c = document.createElement('canvas');
+_c.style.cssText = 'position:fixed;top:0;left:0;pointer-events:none;z-index:9990;';
+document.body.appendChild(_c);
+const _cx = _c.getContext('2d');
+_c.width = innerWidth; _c.height = innerHeight;
+addEventListener('resize', () => { _c.width = innerWidth; _c.height = innerHeight; });
+const _tr = []; let _m = {x:0,y:0};
+addEventListener('mousemove', e => { _m.x = e.clientX; _m.y = e.clientY; });
+(function _d() {
+  _cx.clearRect(0,0,_c.width,_c.height);
+  _tr.push({x:_m.x,y:_m.y}); if(_tr.length>28) _tr.shift();
+  for(let i=1;i<_tr.length;i++){
+    _cx.beginPath(); _cx.moveTo(_tr[i-1].x,_tr[i-1].y); _cx.lineTo(_tr[i].x,_tr[i].y);
+    _cx.strokeStyle='rgba(0,245,255,'+(i/_tr.length*.35)+')';
+    _cx.lineWidth=i/_tr.length*2; _cx.stroke();
+  }
+  requestAnimationFrame(_d);
+})();
+document.querySelectorAll('.nav-tabs a[data-toggle="tab"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const tgt = document.querySelector(a.getAttribute('href'));
+    if (!tgt) return;
+    document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('in','active'));
+    document.querySelectorAll('.nav-tabs li').forEach(li => li.classList.remove('active'));
+    tgt.classList.add('in','active');
+    a.closest('li').classList.add('active');
+  });
+});
+</script>
+
+
+<div class="cyber-lightbox" id="cyberLightbox">
+  <span class="cyber-lightbox-close" id="cyberLbClose">[ESC] 關閉</span>
+  <img src="" alt="" id="cyberLbImg">
+</div>
+
+<script>
+(function(){
+  /* ── 設定 ── */
+  // src 路徑包含這些關鍵字 → 照片類（全寬景框）
+  const SCENE_PATTERNS = [
+    /uploads\/pages\//i,        // 產品頁圖片
+    /uploads\/news\//i,         // 新聞/設施照片
+    /nc_vision/i,               // 首頁輪播
+  ];
+  // alt 包含這些字 → 技術圖表
+  const DIAGRAM_KEYWORDS = [
+    'roadmap','stack','drill','plat','trace','surface','measurement','etching',
+    '組織','架構','圖','chart','diagram','capability','vippo','finish'
+  ];
+  // alt 包含這些字 → 證書/獎項
+  const CERT_KEYWORDS = [
+    '認證','奬','獎','award','certif','report','報告','iso','iatf','ul','rba','品質','qc'
+  ];
+
+  function classify(img) {
+    const src = (img.src || '').toLowerCase();
+    const alt = (img.alt || '').toLowerCase();
+    // logo 跳過
+    if (src.includes('logo') || src.includes('qr.png') || img.closest('.cyber-nav') || img.closest('.cyber-footer')) return null;
+    // 已處理跳過
+    if (img.classList.contains('cyber-processed')) return null;
+    // 場景照片
+    if (SCENE_PATTERNS.some(p => p.test(src))) return 'scene';
+    // 技術圖表
+    if (DIAGRAM_KEYWORDS.some(k => alt.includes(k))) return 'diagram';
+    // 證書/文件
+    if (CERT_KEYWORDS.some(k => alt.includes(k))) return 'cert';
+    // filelist 上傳圖 → 依尺寸判斷（大圖用 diagram，小圖用 cert）
+    if (src.includes('filelist') || src.includes('uploads')) return 'diagram';
+    return 'diagram'; // 預設
+  }
+
+  function wrapScene(img) {
+    if (img.closest('.cyber-img-scene')) return;
+    const wrap = document.createElement('div');
+    wrap.className = 'cyber-img-scene';
+    const tl  = document.createElement('div'); tl.className = 'scene-corner';
+    const br  = document.createElement('div'); br.className = 'scene-corner-br';
+    const st  = document.createElement('div'); st.className = 'scene-status';
+    st.textContent = 'IMG_FEED // LIVE';
+    img.parentNode.insertBefore(wrap, img);
+    wrap.appendChild(img);
+    wrap.appendChild(tl); wrap.appendChild(br); wrap.appendChild(st);
+    img.classList.add('cyber-processed');
+  }
+
+  function wrapDiagram(img) {
+    if (img.closest('.cyber-img-diagram')) return;
+    const wrap = document.createElement('div');
+    wrap.className = 'cyber-img-diagram';
+    const bar  = document.createElement('div'); bar.className = 'diag-bar';
+    const zoom = document.createElement('div');
+    zoom.className = 'diag-zoom'; zoom.title = '放大檢視'; zoom.textContent = '⊕';
+    zoom.addEventListener('click', () => openLightbox(img.src, img.alt));
+    img.parentNode.insertBefore(wrap, img);
+    wrap.appendChild(bar);
+    wrap.appendChild(img);
+    wrap.appendChild(zoom);
+    img.classList.add('cyber-processed');
+    // 點擊圖片也放大
+    img.style.cursor = 'zoom-in';
+    img.addEventListener('click', () => openLightbox(img.src, img.alt));
+    // 移除舊的 inline max-height 讓 CSS 控制
+    img.style.maxHeight = '';
+  }
+
+  function wrapCert(img) {
+    if (img.closest('.cyber-img-cert')) return;
+    // 找最近的 <a> 祖先（如果有）
+    const anchor = img.closest('a');
+    const source = anchor || img;
+    const wrap = document.createElement('div');
+    wrap.className = 'cyber-img-cert';
+    const labelText = img.alt || '';
+    const label = document.createElement('div');
+    label.className = 'cert-label';
+    label.textContent = labelText;
+    source.parentNode.insertBefore(wrap, source);
+    wrap.appendChild(source);
+    if (labelText) wrap.appendChild(label);
+    img.classList.add('cyber-processed');
+    // 沒有 anchor 時點擊放大
+    if (!anchor) {
+      img.style.cursor = 'zoom-in';
+      wrap.addEventListener('click', () => openLightbox(img.src, img.alt));
+    }
+  }
+
+  /* 將散列的 cert 圖片收集到同一個 grid */
+  function groupCerts() {
+    const certs = document.querySelectorAll('.cyber-img-cert');
+    if (certs.length < 2) return;
+    // 只對相鄰的做 group
+    let groups = [];
+    let cur = [];
+    certs.forEach((c, i) => {
+      if (cur.length === 0) { cur.push(c); return; }
+      // 判斷是否相鄰（nextSibling 忽略空白文字節點）
+      let prev = cur[cur.length-1];
+      let between = prev.nextSibling;
+      while (between && between.nodeType === 3 && /^\s*$/.test(between.textContent)) {
+        between = between.nextSibling;
+      }
+      if (between === c || (between && between.tagName === 'BR' && between.nextSibling === c)) {
+        cur.push(c);
+      } else {
+        groups.push([...cur]); cur = [c];
+      }
+    });
+    if (cur.length) groups.push(cur);
+
+    groups.forEach(g => {
+      if (g.length < 2) return;
+      const grid = document.createElement('div');
+      grid.className = 'cyber-img-cert-grid';
+      g[0].parentNode.insertBefore(grid, g[0]);
+      g.forEach(c => grid.appendChild(c));
+    });
+  }
+
+  /* lightbox */
+  const lb    = document.getElementById('cyberLightbox');
+  const lbImg = document.getElementById('cyberLbImg');
+  const lbClose = document.getElementById('cyberLbClose');
+
+  function openLightbox(src, alt) {
+    lbImg.src = src; lbImg.alt = alt || '';
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    lb.classList.remove('open');
+    lbImg.src = '';
+    document.body.style.overflow = '';
+  }
+  if (lb) {
+    lb.addEventListener('click', e => { if (e.target === lb || e.target === lbClose) closeLightbox(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+  }
+
+  /* 主流程 */
+  function processImages() {
+    document.querySelectorAll('.cyber-content-body img, .cyber-product-img img').forEach(img => {
+      if (img.classList.contains('cyber-processed')) return;
+      const type = classify(img);
+      if (!type) return;
+      if (type === 'scene') wrapScene(img);
+      else if (type === 'cert') wrapCert(img);
+      else wrapDiagram(img);
+    });
+    groupCerts();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', processImages);
+  } else {
+    processImages();
+  }
+})();
+</script>
+
+</body>
+</html>

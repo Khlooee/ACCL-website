@@ -1,0 +1,24 @@
+.footer .footer-menu{letter-spacing:1px;line-height:26px;}
+.footer .footer-menu li{display:block;padding:0px 0px;}
+.footer .footer-menu a{color:#222;}
+.footer .footer-menu a:hover{text-decoration:underline;}
+.footer h3{font-size:16px;text-align:center;letter-spacing:1px;text-transform:uppercase;margin-top:0px;}
+.footer .hrline{margin-bottom:20px;height:1px;background-color:#009040;position:relative;}
+.footer .hrline span{display:inline-block;width:50%;height:1px;background-color:#222;position:absolute;right:0px;top:0px;}
+.footer .social{margin-bottom:10px;}
+.footer .social a{display:inline-block;color:#444;}
+.footer .social a:hover{color:#222;}
+.footer .footertitle{font-size:14px;font-weight:bold;letter-spacing:1px;margin-bottom:10px;}
+.footer .nav_qr{display:inline-block;}
+.footer .nav_qr img{border:2px solid #FFF;}
+.footer .nav_footer{font-size:12px;background-color:#333;padding:15px;color:#FFF;letter-spacing:1px;}
+.footer .nav_footer a{color:#FFF;}
+.footer .nav_footer a.privacy{color:#AAA;}
+.footer .nav_footer a.privacy:hover{text-decoration:underline;}
+.footer .footer-info{font-size:14px;}
+.footer .contact-list{letter-spacing:1px;line-height:26px;}
+#google_translate_element{display:inline-block;margin-right:10px;}
+
+@media (max-width: 767px) {
+.footer .hrline span{right:calc(50% - 65px);width:130px;}
+}
