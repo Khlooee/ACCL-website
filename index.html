@@ -3,9 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="refresh" content="0;url=tw/index.html">
+<meta http-equiv="refresh" content="0;url=/ACCL-website/tw/index.html">
 <title>ACCL 博智電子</title>
-<script>window.location.replace('tw/index.html');</script>
+<script>
+  // 确保正确的绝对路径跳转
+  window.location.replace(window.location.origin + '/ACCL-website/tw/index.html');
+</script>
 <style>
   body {
     margin: 0;
